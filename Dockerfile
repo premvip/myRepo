@@ -4,7 +4,7 @@ WORKDIR /usr/src/myapp
 
 COPY SimpleArray.java /usr/src/myapp/SimpleArray.java
 
-javac SimpleArray.java 
+RUN javac SimpleArray.java 
 
 CMD ["java", "SimpleArray"]
 
